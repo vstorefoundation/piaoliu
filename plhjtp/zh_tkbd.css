@@ -54,7 +54,7 @@ a:active {
 {
 	width:553px;
 	height:20px;
-	background:url(news/count_03.gif);
+	/*background:url(news/count_03.gif);*/
 }
 .con/* 内容页内容文字定义以及左右边距及初始页面高度部分 */
 { font-size: 12px; text-align: left; margin-left:21px; margin-right:20px; margin-top:5px; width:490px;}
