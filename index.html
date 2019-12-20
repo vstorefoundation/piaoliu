@@ -219,11 +219,12 @@
                         (function(k) {
                             var btn = centbts[k];
                             var btbottomhtl = centers[i][k].url;
-                            btn.onclick = function() {
 
+                            btn.onclick = function() {
+                                var ts = new Date().getTime();
                                 var bottomStr = "";
 
-                                bottomStr += "<iframe src='" + btbottomhtl + "'>";
+                                bottomStr += "<iframe src='" + btbottomhtl + ts + "'>";
 
                                 bottomStr += "</iframe>";
 
