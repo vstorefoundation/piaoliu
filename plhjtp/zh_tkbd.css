@@ -44,10 +44,12 @@ a:active {
 {
 	width:553px;
 	height:35px;
-	background:url(news/count_01.gif);
+	/*background:url(news/count_01.gif);*/
 }
 .middle/* 内容页中间部分 */
-{ background-color: transparent; background-image: url(news/count_02.gif); background-position: 0 0; height:415px; width:553px;}
+{ background-color: transparent; 
+	/*background-image: url(news/count_02.gif);*/
+	 background-position: 0 0; height:415px; width:553px;}
 .down/* 内容页底部部分 */
 {
 	width:553px;
